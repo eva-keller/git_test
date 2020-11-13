@@ -1,43 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
-<!-- metadata elements -->
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
-    
-    <nav id="navbar">
-        <ul>
-          <li><a href=""></a>Gmail</li>
-          <li><a href="">Images</a></li>
-          <li><a href=""></a>Apps</li>
-          <li><a href=""></a>Photo</li>
-        </ul>
-      </nav>
+    <head>
+        <title>Google Clone</title>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div id="nav">
+            <a class="toplink">Google</a>
+            <a class="toplink">Images</a>
+            <a class="toplink">Apps</a>
+            <a class="topimage"></a>
 
-    <!--logo-->
-    <!--search area-->
-    <!--google offeres-->
-    <div class="search">
-    <form>
-    <input type="text">
-    
-    <button type="submit">Google Search</button>
-    <button type="submit">I'm Feeling Lucky</button>
-    </form>
-    </div>
-    <!--location-->
-    <p>country you're in</p>
-    <!--footer-->
-    <div class="footer">
-        <a href="">About</a>
-        <a href="">Advertising</a>
-        <a href="">Business</a>
-        <a href="">How Search works</a>
-        <a href="">Privacy</a>
-        <a href="">Terms</a>
-        <a href="">Settings</a>
-      </div> 
-</body>
+        </div>
 
+        <div id="middle">
+
+            <div id="logo">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+            </div>
+
+            <div id="searchbarcontainer">
+                <div id="search">X</div>
+                <input id="searchbar" type="text">
+                <div id="voice">Y</div>
+            </div>
+
+            <div id="buttons">
+                <div class="button">
+                    Google Search
+                </div>
+                <div class="button">
+                   I'm Feeling Lucky 
+                </div>
+            </div>
+
+            <div id="links">
+                Google is offered in <a href="">magyar</a> 
+                <a href="">deutsch</a>
+            </div>
+
+        </div>
+
+        
+        <div id="footer-content">
+            <a>About</a>
+            <a>Advertising</a>
+            <a>Business</a>
+            <a>How Search work</a>
+            <a>Privacy</a>
+            <a>Terms</a>
+            <a>Settings</a>
+        </div>
+        
+    </body>
 </html>
